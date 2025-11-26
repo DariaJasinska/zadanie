@@ -22,6 +22,12 @@ int main()
 	int x;
 	cin >> x;
 
+	if( x <= 0 )
+	{
+		cout << "Podana liczba nie jest dodatnia";
+		return 0;
+	}
+
 	bool wynik = czy_kwadratowa(x);
 	cout << x << ", ";
 
@@ -33,4 +39,6 @@ int main()
 	{
 		cout << "liczba nie jest bezkwadratowa";
 	}
+
+	return 0;
 }
