@@ -28,7 +28,7 @@ int main()
 		return 0;
 	}
 
-	bool wynik = czy_kwadratowa(x);
+	bool wynik = czy_bezkwadratowa(x);
 	cout << x << ", ";
 
 	if( wynik == true )
